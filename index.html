@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - sign-up-form-resp</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main class="container">
+  <section class="title">
+    <h1>Learn to code by watching others</h1>
+    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+  </section>
+  <section class="form-container">
+    <div class="form-header">
+      <span>Try it free 7 days</span> then $20/mo. thereafter
+    </div>
+    <form class="form" novalidate>
+      <div class="field">
+        <input required class="form-input" type="text" placeholder="First Name"/>
+        <i class="fas fa-exclamation-circle"></i>
+        <div class="error">First Name cannot be empty</div>
+      </div>
+      <div class="field">
+        <input required class="form-input" type="text" placeholder="Last Name"/>
+        <i class="fas fa-exclamation-circle"></i>
+        <div class="error">Last Name cannot be empty</div>
+      </div>
+      <div class="field">
+        <input required class="form-input" type="email" placeholder="Email Address"/>
+        <i class="fas fa-exclamation-circle"></i>
+        <div class="error">Looks like this is not an Email</div>
+      </div>
+      <div class="field">
+        <input required class="form-input" type="password" placeholder="Password"/>
+        <i class="fas fa-exclamation-circle"></i>
+        <div class="error">Password cannot be empty</div>
+      </div>
+      <input class="form-input submit-btn" type="submit" value="Claim you free trial"/>
+      <span class="terms-of-service">By clicking the button, you are agreeing to our <span>Terms and Services<span/></span>
+    </form>
+  </section
+</main>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
